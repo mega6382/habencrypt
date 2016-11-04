@@ -1,0 +1,14 @@
+{
+    "name": "mega6382/hab-encryption",
+    "description": "This class can encrypt and decrypt a string with a given key. It takes a given string and encrypts it by adding the code of o the characters in the string with the codes of the key string. The class can also do the opposite process by reverting to the original string using the same key. It can also encode the result encrypted string with base64 and store it on a file.",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Haseeb Basil",
+            "email": "haseeb.basil@crowdafrica.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
