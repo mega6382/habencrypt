@@ -11,6 +11,7 @@ class habEncrypt {
     function enc($string, $key) {
         $enc = "";
         $count = strlen($string);
+		$string = (string)$string;
         $keyCount = strlen($key);
         for ($i = 0, $j = 0; $i < $count; $i++) {
             $char = ord($string[$i]);
@@ -34,6 +35,7 @@ class habEncrypt {
     function dec($string, $key) {
         $dec = "";
         $count = strlen($string);
+		$string = (string)$string;
         $keyCount = strlen($key);
         for ($i = 0, $j = 0; $i < $count; $i++) {
             $char = ord($string[$i]);
